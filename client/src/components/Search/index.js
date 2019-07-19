@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Search = props => {
+const SearchBooks = props => {
     return (
         <form>
             <div className='form-group'>
@@ -10,7 +10,7 @@ const Search = props => {
                 <input className='col-12 form-control'
                     value={props.search}
                     type='text'
-                    name="searchBook"
+                    name='searchBook'
                     placeholder="Enter book's name here"
                     onChange={props.handleInputChange}
                 />
@@ -22,4 +22,4 @@ const Search = props => {
     )
 }
 
-export default Search
+export default SearchBooks
