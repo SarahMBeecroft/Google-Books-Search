@@ -1,0 +1,15 @@
+.card {
+  background-color: white;
+}
+
+.saved-list {
+  background-color: white;
+}
+
+.deleteBook {
+  margin-left: 10px
+}
+
+.viewBook {
+  margin-left: 5px
+}
