@@ -8,7 +8,7 @@ const SearchResults = props => {
     <div className='card'>
       <div className='card-body player'>
         <div className='article'>
-          <h3>Book Results</h3>
+          <h3>Book Results:</h3>
         </div>
       </div>
     </div>
