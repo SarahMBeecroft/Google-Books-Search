@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 import { Row, Col } from '../Grid';
 
-const Results = props => {
+const SearchResults = props => {
   return (props.books.length === 0) ? (
     <div className='card'>
       <div className='card-body player'>
@@ -16,7 +16,7 @@ const Results = props => {
       <div className='card'>
         <div className='card-body player'>
           <div className='article'>
-            <h3>Search Results</h3>
+            <h3>Search Results:</h3>
             {props.books.map(book => {
               return (
                 <li className='search-list list-group-item' key={book._id}>
@@ -59,4 +59,4 @@ const Results = props => {
     )
 }
 
-export default Results
+export default SearchResults

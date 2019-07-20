@@ -3,7 +3,7 @@ import Jumbotron from '../../components/Jumbotron';
 import API from '../../utils/API';
 import { Container, Row, Col } from '../../components/Grid';
 import Search from '../../components/Search';
-import Results from '../../components/Results';
+import SearchResults from '../../components/Results';
 
 class SearchBooks extends Component {
   // Creates state
@@ -88,7 +88,7 @@ class SearchBooks extends Component {
         </Container>
         <br></br>
         <Container>
-          <Results
+          <SearchResults
             books={this.state.books}
             handleSavedButton={this.handleSavedButton}
           />
